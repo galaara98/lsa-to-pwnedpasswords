@@ -16,7 +16,7 @@ Then, edit the Library Directories and add the Debug directory from the x64\Outp
 
 Add cryptlib.lib to your Additional Dependencies list under Project –> "your project name" –> Configuration Properties –> Linker–>Input–> Additional Dependencies
 
-As noted in the source code, this project was heavily influenced by the work of @JacksonVD and I am humbly thankful for his base code from his blog: https://jacksonvd.com/checking-for-breached-passwords-ad-using-k-anonymity/ and the code i adapted from: https://github.com/JacksonVD/PwnedPasswordsDLL-API
+As noted in the source code, this project was heavily influenced by the work of @JacksonVD and I am humbly thankful for his blog: https://jacksonvd.com/checking-for-breached-passwords-ad-using-k-anonymity/ and the code i adapted from: https://github.com/JacksonVD/PwnedPasswordsDLL-API
 
 The difference in my code from Jacksons:
 1) Heavily commented

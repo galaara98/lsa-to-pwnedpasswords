@@ -8,7 +8,7 @@ If you are compiling in Visual Studio you will need to:
 
 Download Crypto++ from the following link (https://www.cryptopp.com/#download)
 
-Build Crypto++ as a library in x64 mode – the following link is a good resource on compiling it for use in Visual Studio
+Build Crypto++ as a library in x64 mode – the following link is a good resource on compiling it for use in Visual Studio (http://programmingknowledgeblog.blogspot.com.au/2013/04/compiling-and-integrating-crypto-into.html)
 
 Include the Crypto++ header directories through Project –> "your project name: Properties –> Configuration Properties –> VC++ Directories. Edit the Include Directories and add the include directory
 

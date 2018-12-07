@@ -258,7 +258,7 @@ extern "C" __declspec(dllexport) BOOLEAN __stdcall PasswordFilter(PUNICODE_STRIN
 		return LogOnly; //if LogOnly, then never fail; if not Logonly, Disallow password because accountnmame looks corrupt
 	}
 
-	//convert accountName from a PUNICODE (Pointer to UNICODE, but only one that LSA uses) to WideString called username
+	//convert accountName from a PUNICODE (Pointer to UNICODE, but only one that LSA uses) to WideString then string called username
 	std::wstring wStrBuffer(accountName->Buffer, accountName->Length / sizeof(WCHAR));
 	const wchar_t *wideChar = wStrBuffer.c_str();
 	std::wstring wStr(wideChar);
@@ -284,7 +284,7 @@ extern "C" __declspec(dllexport) BOOLEAN __stdcall PasswordFilter(PUNICODE_STRIN
 		return LogOnly; //if LogOnly, then never fail; if not Logonly, then Disallow password because fullname looks corrupt
 	}
 
-	//convert password from a PUNICODE (Pointer to UNICODE, but only one that LSA uses) to WideString called str
+	//convert password from a PUNICODE (Pointer to UNICODE, but only one that LSA uses) to WideString then string called str
 	std::wstring wStrBuffer2(password->Buffer, password->Length / sizeof(WCHAR));
 	const wchar_t *wideChar2 = wStrBuffer2.c_str();
 	std::wstring wStr2(wideChar2);

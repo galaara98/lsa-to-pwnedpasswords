@@ -1,5 +1,6 @@
 # lsa-to-pwnedpasswords
 LSASS Notification Package that verifies if proposed password is in TroyHunts haveibeenpwned database
+
 WARNING:  I am not an expert at github, this code is provided so you can accelerate your own efforts to improve your own Windows Computers and Domain Controllers from accepting pwned passwords... Use the code at your own risk.
 
 The code has a dependency on Cryptopp (someday i will learn to use Microsofts built in SHA1 libraries)

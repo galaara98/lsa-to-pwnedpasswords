@@ -29,7 +29,7 @@
 *
 * SIMPLIFIED explanation of includes (AS I UNDESTOOD THEM):
 *
-* stdafx tell C compiler to use recompiled headers when possible
+* stdafx tell C compiler to use precompiled headers when possible
 * windows is used to find other .h files string, fstream, ctime, and iomanip
 * string is basic strings
 * atlstr is needed for certain string functions related to CString

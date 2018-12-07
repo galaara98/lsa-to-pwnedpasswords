@@ -24,6 +24,6 @@ The difference in my code from Jacksons:
 3) JSON Logging
 4) Log Only Mode
 
-However if you would like to compile this code without creating your own solution, my cpp file is a direct replacement of https://github.com/JacksonVD/PwnedPasswordsDLL-API 's dllmain.cpp
+NOTE: if you would like to compile this code without creating your own solution, my cpp file is a direct replacement of https://github.com/JacksonVD/PwnedPasswordsDLL-API 's dllmain.cpp
 
 (someday I will work with him to just push my proposals to his project, but at this time, i have some friends that would like to review the code, so I needed a way to get it out "as is")
